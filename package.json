@@ -1,0 +1,23 @@
+{
+  "name": "robertowalom-webapp",
+  "version": "1.0.0",
+  "description": "Roberto Arias-Yacupoma's personal website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Walom/robertowalom-webapp.git"
+  },
+  "author": "Roberto Arias-Yacupoma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Walom/robertowalom-webapp/issues"
+  },
+  "homepage": "https://github.com/Walom/robertowalom-webapp#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

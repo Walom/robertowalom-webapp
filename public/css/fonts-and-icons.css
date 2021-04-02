@@ -1,0 +1,28 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat/Montserrat-Black.ttf') format('truetype')
+}
+
+.icon-dots-three-horizontal:before {
+    content: "\e900";
+}
+
+.icon-home3:before {
+    content: "\e902";
+}
+
+.icon-feed:before {
+    content: "\e91d";
+}
+
+.icon-compass2:before {
+    content: "\e94a";
+}
+
+.icon-add-outline:before {
+    content: "\e901";
+}
+
+.icon-check_circle:before {
+    content: "\e903";
+}

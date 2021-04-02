@@ -1,0 +1,318 @@
+body {
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1 {
+    margin: 0;
+}
+
+/**
+*   LEFT NAVIGATION PANEL
+*/
+
+#nav-left-panel {
+    background: #000;
+    width: 14%;
+    height: 100%;
+    float: left;
+
+    margin: 0;
+    font-family: "Montserrat";
+    padding: 0 1.5%;
+    box-sizing: border-box;
+}
+
+#content-right-panel {
+    background: #121212;
+    width: 86%;
+    height: 100%;
+    float: right;
+
+    margin: 0;
+    font-family: "Montserrat";
+}
+
+#collapsable-menu-panel {
+    margin: 10% 0;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#iconed-main-links-panel {
+    margin: 14% 0;
+    color: #ccc;
+}
+
+.iconed-link {
+    margin: 13% 0;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.iconed-link:hover {
+    color: white;
+}
+
+.iconed-link .icon {
+    font-size: 24px;
+    float: left;
+    margin-right: 9%;
+}
+
+.iconed-link .text {
+    margin: 3px 0;
+    display: inline-block;
+}
+
+
+
+#your-library-panel {
+    color: #ccc;
+    margin-top: 22%;
+}
+
+#library-title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#library-content {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#library-content .library-item {
+    margin: 8% 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#library-content .library-item:hover {
+    color: white;
+}
+
+
+
+#playlists-panel {
+    color: #ccc;
+    margin-top: 22%;
+}
+
+#playlists-title {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#playlists-content {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.playlist-item {
+    margin: 8% 0;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#playlists-content .playlist-item:hover {
+    color: white;
+}
+
+
+
+
+#new-playlist-panel {
+    margin-top: 25%;
+    color: #ccc;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#new-playlist-panel .icon-add-outline {
+    font-size: 24px;
+    float: left;
+    margin-right: 7%;
+}
+
+#new-playlist-panel .text {
+    margin: 3px 0;
+    display: inline-block;
+}
+
+
+
+/**
+*   CONTENT HEADER
+*/
+
+
+
+#content-header {
+    height: 40%;
+    padding: 0 2%;
+    position: relative;
+    background-image: url("../images/spotify-cover-photo.jpg");
+    background-position-y: -300px;
+    background-size: cover;
+}
+
+#content-header::before {
+    content: "";
+    background-image: linear-gradient(
+        rgba(18, 18, 18, 0.2),
+        rgba(18, 18, 18, 0.98)
+      );
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+}
+
+#main-info {
+    padding-top: 9%;
+}
+
+
+/** Artist label **/
+
+#artist-label {
+    font-size: 14px;
+    padding-left: 4px;
+    color: white;
+    opacity: 0.99;
+    width: fit-content;
+}
+
+#artist-label #text-label {
+    padding-top: 4px;
+    display: inline-block;
+}
+
+#artist-label .icon-check_circle {
+    margin-left: 10px;
+    font-size: 24px;
+    float: right;
+    color: #419eef;
+}
+
+#artist-name {
+    font-size: 35px;
+    color: white;
+    opacity: 0.99;
+    margin: 0;
+    font-size: 26px;
+}
+
+/** Main action buttons */
+
+#main-action-buttons {
+    width: fit-content;
+}
+
+#main-action-buttons div {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+#hire-button {
+    padding: 9px 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(42, 189, 74);
+    opacity: 0.99;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 13px;
+}
+
+#contact-button {
+    padding: 9px 40px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(31, 32, 31);
+    border: 1px solid white;
+    opacity: 0.99;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 13px;
+    margin-left: 10px;
+}
+
+#more-options-button {
+    padding: 9px;
+    border-radius: 100px;
+    color: white;
+    background-color: rgb(31, 32, 31);
+    border: 1px solid white;
+    opacity: 0.99;
+    text-align: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-left: 10px;
+    float: right;
+}
+
+#monthly-listeners {
+    float: right;
+    clear: both;
+    margin-top: -20px;
+    font-size: 13px;
+    opacity: 0.99;
+    color: #ccc;
+    letter-spacing: 2px;
+}
+
+#monthly-listeners div {
+    text-align: right;
+}
+
+#monthly-listeners-count {
+    margin-top: 3px;
+}
+
+/** Tab Headers **/
+
+#content-tabs {
+    margin-top: 2.2%;
+}
+
+#content-tabs .content-tab {
+    display: inline-block;
+    width: fit-content;
+    min-width: 100px;
+    padding: 0 1%;
+    opacity: 0.99;
+    color: #bbb;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    text-align: center;
+    word-spacing: 1.5px;
+    letter-spacing: 1px;
+}
+
+#content-tabs .content-tab.selected {
+    color: white;
+}
+
+#content-tabs .content-tab:hover {
+    color: white;
+}
+
+#content-tabs .content-tab .tiny-green-selection-border {
+    border: none;
+}
+
+#content-tabs .content-tab.selected .tiny-green-selection-border {
+    border-bottom: 3px solid rgb(42, 189, 74);
+    padding-top: 15px;
+    width: 25px;
+    margin: 0 auto;
+}
